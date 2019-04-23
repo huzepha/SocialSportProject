@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "330716116040",
+    "firebase_url": "https://socialsportapplication.firebaseio.com",
+    "project_id": "socialsportapplication",
+    "storage_bucket": "socialsportapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330716116040:android:91e3f1e08ba96a1f",
+        "android_client_info": {
+          "package_name": "com.example.socialsportapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330716116040-p5h9ab1fp4np1oe94b9vp903j1la99nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialsportapplication",
+            "certificate_hash": "e3d15d0e396d521a9fdd82fee00f3d378eda4818"
+          }
+        },
+        {
+          "client_id": "330716116040-00ikm7t4u99ur8urinrpkcefvaghb22d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialsportapplication",
+            "certificate_hash": "9f083d0abd5fc7db4569ea3000afc0e9ac0e75c4"
+          }
+        },
+        {
+          "client_id": "330716116040-6bcpii4srajck9p0ai3p4q6ee7t0oqgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJuUTJjV65AK5LLlShg4MP3lzN-0DYe8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330716116040-6bcpii4srajck9p0ai3p4q6ee7t0oqgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

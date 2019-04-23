@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorWhite1"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Create Event"
+        android:textColor="@color/colorblack"
+        android:textSize="@dimen/_25sdp" />
+
+    <EditText
+        android:id="@+id/edt_match_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:hint="Enter Match Title"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColorHint="@color/colorblack"
+        android:textColor="@color/colorblack"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <EditText
+        android:id="@+id/edt_match_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:hint="Enter postcode"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <TextView
+        android:id="@+id/tv_match_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:hint="Date"
+        android:imeOptions="actionNext"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="@dimen/_14sdp" />
+
+    <TextView
+        android:id="@+id/tv_match_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:hint="Time"
+        android:imeOptions="actionNext"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"
+        android:textSize="@dimen/_14sdp" />
+
+    <EditText
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:hint="Enter Match Description"
+        android:imeOptions="actionNext"
+        android:lines="5"
+        android:maxLines="5"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/colorblack"
+        android:textColorHint="@color/colorblack"/>
+
+    <Button
+        android:id="@+id/btn_event"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textColor="@color/colorblack"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/backcorner_button"/>
+</LinearLayout>

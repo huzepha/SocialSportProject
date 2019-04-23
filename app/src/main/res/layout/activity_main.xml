@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/colorWhite1">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/socialsport_title" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="278dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/socialsportlogo_copy" />
+
+    <EditText
+
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="@color/colorblack"
+        android:textColor="@color/colorblack"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColorHint="@color/colorblack"
+        android:textColor="@color/colorblack"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textSize="14sp"
+        android:textColor="@color/colorblack"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/_10sdp"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/colorblack"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/backcorner_button"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_acc"
+        android:textSize="@dimen/_14sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/colorblack"
+        />
+
+
+</LinearLayout>

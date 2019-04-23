@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorWhite1">
+
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/colorblack"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/backcorner_button"
+        />
+
+
+</LinearLayout>
